@@ -5,7 +5,10 @@ const DogDetails = ({ dog }) => {
 		<div>
 			<h1>Name: {dog.name}</h1>
 			<h2>Age: {dog.age}</h2>
-			<img src={dog.src} />
+			<img
+				src={dog.src}
+				alt={dog.name}
+			/>
 			<ul>
 				Facts:
 				{dog.facts.map(fact => (
