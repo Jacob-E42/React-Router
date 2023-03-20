@@ -4,7 +4,6 @@ import DogList from "./DogList";
 import FilterDogDetails from "./FilterDogDetails";
 
 const Router = ({ dogs }) => {
-	console.log(dogs);
 	return (
 		<Routes>
 			<Route
